@@ -1,0 +1,37 @@
+
+# Hadoop HDFS data
+data/hdfs/
+
+# Spark logs
+data/spark-logs/
+
+# Datasets and large generated files
+datasets/
+*.pcap
+*.pcapng
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
